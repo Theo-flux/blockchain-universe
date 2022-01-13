@@ -38,6 +38,10 @@ li {
   font-weight:600;
 }
 
+li:hover {
+  border-bottom: 2px solid var(--pryColor);
+}
+
 .btn {
   padding: .3em .8em;
   border: 1px solid var(--pryColor);
@@ -49,6 +53,7 @@ li {
 .current {
   border-bottom: 2px solid var(--pryColor);
 }
+
 /* Layout */
 .container {
   width: 100%;
